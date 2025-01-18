@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Centering elements with fallback */
+.center-content {
+  @apply flex justify-center items-center min-h-screen;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-blue-700 text-white px-4 py-2 rounded-md text-center font-semibold transition-colors duration-300;
+}
+
+.btn-primary:hover {
+  @apply bg-blue-500;
+}
+
+.btn-disabled {
+  @apply bg-gray-300 text-gray-500 cursor-not-allowed;
+}
+
+/* Navigation Panel */
+.nav-button {
+  @apply bg-gray-200 px-2 py-1 text-center rounded text-sm font-medium cursor-pointer;
+}
+
+.nav-button.visited {
+  @apply bg-yellow-300;
+}
+
+.nav-button.attempted {
+  @apply bg-green-200;
+}
+
+/* Loader */
+.loader {
+  @apply border-4 border-gray-200 border-t-blue-500 rounded-full w-10 h-10 animate-spin;
+}
