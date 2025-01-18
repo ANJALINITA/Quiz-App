@@ -25,7 +25,7 @@ A simple quiz application that allows users to answer multiple-choice questions,
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/quiz-app.git
+   git clone https://github.com/ANJALINITA/Quiz-App.git
 2. Navigate to the project directory:
     cd quiz-app
 3. Install dependencies:
@@ -33,4 +33,6 @@ A simple quiz application that allows users to answer multiple-choice questions,
 4. Run the development server:  
    npm start
 5. Open your browser and go to http://localhost:3000 to view the app.
+6. LiVE Demo LINK
+   https://quiz-44fksuaeb-anjalis-projects-427ae7b7.vercel.app/
 
